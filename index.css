@@ -1,0 +1,81 @@
+body {
+  box-sizing: border-box;
+  font-family: "TT Lakes";
+  font-size: 16px;
+  width: 320px;
+  /* margin-left: 24px; */
+}
+
+.up_cap {
+  display: flex;
+  margin-left: 24px;
+}
+.up_left {
+  display: flex;
+  float: left;
+}
+
+.up_right {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+}
+
+/* colors{
+    ремонт техники / RU: #7E7E82 ;
+    следующие: #1B1C21 ;
+    border button: #41F6D7 ;
+    background : #ffffff ;
+}  */
+
+.services_menu {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex; */
+  width: 222px;
+  font-family: "TT Lakes";
+  font-size: 16px;
+  line-height: 24px;
+}
+.important_menu {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 24px;
+}
+
+.first_menu {
+  margin: 0;
+  padding: 0 30px;
+  border-left: 2px solid #41f6d7;
+}
+
+.buttom {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between;
+    align-items: center; */
+  width: 222px;
+  margin-left: 24px;
+  font-family: "TT Lakes";
+  /* font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px; */
+}
+.buttom_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 222px;
+  margin-top: 20px;
+}
+
+.icons_button,
+.important_menu,
+.up_button,
+.post_mail,
+.phone_number,
+.lang_name {
+  border: none;
+  background: #ffffff;
+}
